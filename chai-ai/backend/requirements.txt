@@ -5,7 +5,4 @@ python-dotenv==1.0.0
 websockets==12.0
 pydantic>=2.9.0
 python-multipart==0.0.6
-# For LLM, we'll use a template-based approach for MVP
-# To add real LLM later: pip install transformers torch
-google-generativeai>=0.8.0
 openai>=1.0.0
