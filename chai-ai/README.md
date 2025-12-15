@@ -1,6 +1,6 @@
 # Chai AI Clone 🤖✨
 
-A powerful, modern chatbot application inspired by Chai AI, featuring real-time roleplay capability powered by **DeepSeek** and **Google Gemini**.
+A powerful, modern chatbot application inspired by Chai AI, featuring real-time roleplay capability powered by **DeepSeek**.
 
 ## 🚀 Features
 - **Intelligent Conversations**: Integrated with DeepSeek-V3 via OpenRouter for high-quality roleplay.
@@ -12,7 +12,7 @@ A powerful, modern chatbot application inspired by Chai AI, featuring real-time 
 ## 🛠️ Tech Stack
 - **Backend**: FastAPI (Python), SQLAlchemy, WebSockets.
 - **Frontend**: React (Vite), CSS3.
-- **AI**: DeepSeek API / Google Gemini API.
+- **AI**: DeepSeek API.
 
 ## 📦 Installation
 
@@ -36,10 +36,6 @@ AI_PROVIDER=deepseek
 DEEPSEEK_API_KEY=your_key_here
 DEEPSEEK_BASE_URL=https://openrouter.ai/api/v1
 DEEPSEEK_MODEL=deepseek/deepseek-chat
-
-# Optional: Google Fallback
-GOOGLE_API_KEY=your_google_key
-```
 
 ### 3. Frontend Setup
 ```bash
